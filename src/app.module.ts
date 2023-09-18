@@ -18,6 +18,6 @@ export class AppModule implements NestModule {
      * appropriately parse the body of incoming requests from Inngest or the
      * Inngest dev server.
      */
-    consumer.apply(handler).forRoutes('/api/inngest');
+    consumer.apply(handler).forRoutes('api/inngest');
   }
 }
